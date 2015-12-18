@@ -1,0 +1,5 @@
+apply plugin: 'groovy'
+apply from: 'build-version.gradle'
+apply from: 'build-dependencies.gradle'
+
+group = 'de.emesit'
